@@ -32,7 +32,20 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-container {
+  display: flex;
+}
+
+.content {
+  margin-left: 200px;
+  /* Adjust based on sidebar width */
+  padding: 20px;
+  width: calc(100% - 200px);
+  /* Full width minus sidebar */
 }

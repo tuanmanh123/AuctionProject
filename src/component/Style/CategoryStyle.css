@@ -1,0 +1,214 @@
+/* CSS */
+.Category {
+
+    background-color: #f7f8fc;
+    display: flex;
+    padding: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #74caf7;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+}
+
+.actions button {
+    padding: 5px 10px;
+}
+
+.Category_main {
+    flex: 1;
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.Sidebar {
+
+    flex: 0;
+}
+
+
+
+button {
+    display: inline;
+    width: 40px;
+}
+
+.icon-button {
+    display: grid;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+table {
+    background-color: #ffffff;
+}
+
+.modal {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* CSS cho nội dung của modal */
+.modal-content {
+    width: 30%;
+    height: 40%;
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 10px;
+    border: 1px solid #888;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#save_Button {
+    width: 100px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+input {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.success-message {
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Delete-Alert {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.Delete-Alert-Window {
+    width: 20%;
+    height: 20%;
+    background-color: #fefefe;
+    /* Màu nền của modal */
+    margin: 15% auto;
+    /* Căn giữa modal */
+    padding: 20px;
+    border: 1px solid #888;
+
+    /* Độ rộng của modal */
+    display: flex;
+    /* Hiển thị các phần tử con theo kiểu flexbox */
+    flex-direction: column;
+    /* Xếp các phần tử con theo chiều dọc */
+    position: relative;
+
+
+}
+
+#deleteConfirm {
+
+    width: 60px;
+    position: absolute;
+    bottom: 20px;
+    /* Khoảng cách bottom là 20px */
+    right: 20px;
+    /* Khoảng cách right là 20px */
+}
+
+#deleteCancel {
+
+    width: 60px;
+    position: absolute;
+    bottom: 20px;
+    /* Khoảng cách bottom là 20px */
+    right: 90px;
+    /* Khoảng cách right là 20px */
+}

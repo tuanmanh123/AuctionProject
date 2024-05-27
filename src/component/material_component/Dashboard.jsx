@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaUsers, FaList, FaGavel } from 'react-icons/fa'; // Import các biểu tượng cần thiết
-import './Style/Dashboard.css';
+import './Dashboard.css';
 import { MdDashboardCustomize } from "react-icons/md";
 
 const Dashboard = () => {

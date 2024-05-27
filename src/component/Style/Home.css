@@ -1,8 +1,18 @@
 .Main-Home {
-    background-color: red;
-    height: 100%;
+    background-color: #f7f8fc;
+    display: flex;
+    height: 100rem;
+    width: 100%;
+
 }
 
+.Main {
+    margin-left: 20%;
+    width: 80%;
+    margin-right: 5%;
+}
+
+.dashboard {}
 
 
 .Content-container {

@@ -1,25 +1,34 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import Dashboard from "./Dashboard";
-import './Style/Home.css';
 
+import Dashboard from "./material_component/Dashboard";
+import './Style/Home.css';
 import SideBar from "./sidebar";
+import Chart from "./material_component/chart";
+import BarChart from "./material_component/Bar_chart.jsx";
+
+
 function Home() {
+
     return (
         <div class='Main-Home'>
-            <div class="Sidebar-container">
-                <div class="SideBar">
-                    <SideBar></SideBar>
-                </div>
-            </div>
-            <div class="Content-container">
-                <div class='Dashboard'>
+            <div class='Main'>
+                <div class='sidebar'><SideBar></SideBar></div>
+                <div class='dashboard'>
                     <Dashboard></Dashboard>
+
+
+                </div>
+                <div class='dashboard-content'>
+                    <Chart></Chart>
+
+
                 </div>
             </div>
+        </div >
 
 
-        </div>
+
+
     )
 }
 export default Home;

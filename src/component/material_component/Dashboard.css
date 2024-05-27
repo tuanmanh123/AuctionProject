@@ -37,6 +37,7 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    margin-bottom: 20px;
     text-align: left;
     width: 300px;
     position: relative;
@@ -63,4 +64,26 @@
 .card .icon {
     font-size: 4rem;
     /* Size of the icon */
+}
+
+#User-dashboard {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+
+}
+
+#Categories-dashboard {
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+
+
+
+
+}
+
+#Auctions-dashboard {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
 }
